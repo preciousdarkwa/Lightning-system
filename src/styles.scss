@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import './assets/bootstrap.scss';
+
+
+html{
+    body{
+        
+        // background-image: url(./assets/lack.jpg);
+        background-color:rgb(44, 34, 34);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &::after {
+            width: 100vw;
+            height: 100vh;
+            background-color: #fff;
+        }
+    }
+}

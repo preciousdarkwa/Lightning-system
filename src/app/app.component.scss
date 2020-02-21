@@ -1,0 +1,67 @@
+
+.container{
+    
+    padding-top: 20px;
+
+    .title{
+        width: 100%;
+        text-align: center;
+
+        h1{
+            font-weight: bold;
+            color: aliceblue;
+            
+        }
+        
+    }
+
+
+    .body{
+        padding-top: 30px;
+        .kcard{
+            .icon{
+                width: 150px;
+                height: 150px;
+                // background-color: #fff;
+                background-image: url(../assets/hey.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position:  center;
+                border-radius: 50%;
+                margin: auto;
+                border: 2px solid rgb(221, 208, 28);
+                padding: 30px;
+            
+                
+            }
+
+            .kbutton{
+                padding-top: 15px;
+                margin: auto;
+                text-align: center;
+                
+                .btn{
+                    &::before{
+                        width: 20px;
+                        height: 20px;
+                        color: red;
+                        position: relative;
+                        top: -100px;
+                    }
+                }
+            
+            }
+        }
+    }
+
+    .spacer{
+        padding: 20px;
+    }
+}
+
+
+.blue{
+    background-color:rgb(48, 48, 250) !important;
+    border: 2px solid rgb(78, 78, 209) !important;
+    transition: all ease-in-out 1.5s;
+}
